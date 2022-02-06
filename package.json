@@ -1,0 +1,26 @@
+{
+  "name": "redux-store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon",
+    "seed": "node server/config/seeds.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/splaza28/Redux-Store.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/splaza28/Redux-Store/issues"
+  },
+  "homepage": "https://github.com/splaza28/Redux-Store#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "mongoose": "^6.2.0",
+    "nodemon": "^2.0.15"
+  }
+}
