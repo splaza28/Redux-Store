@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/splaza28/Redux-Store#readme",
   "dependencies": {
+    "@reduxjs/toolkit": "^1.7.2",
     "bcrypt": "^5.0.1",
     "mongoose": "^6.2.0",
     "nodemon": "^2.0.15"
