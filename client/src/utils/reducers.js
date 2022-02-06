@@ -1,5 +1,7 @@
 const initState = {
-  posts: []
+  posts: [
+    
+  ]
 }
 
 const rootReducer = (state = initState, action) => {
