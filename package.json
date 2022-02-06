@@ -5,6 +5,7 @@
   "main": "server/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js",
     "watch": "nodemon",
     "seed": "node server/config/seeds.js"
   },
@@ -20,10 +21,14 @@
   "homepage": "https://github.com/splaza28/Redux-Store#readme",
   "dependencies": {
     "@reduxjs/toolkit": "^1.7.2",
+    "apollo-server-express": "^3.6.2",
     "bcrypt": "^5.0.1",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.2.0",
     "nodemon": "^2.0.15",
     "react-redux": "^7.2.6",
-    "redux": "^4.1.2"
+    "redux": "^4.1.2",
+    "stripe": "^8.202.0"
   }
 }

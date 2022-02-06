@@ -14,4 +14,11 @@ const Home = () => {
   );
 };
 
-export default connect() (Home);
+const mapStateToProps = (state) => {
+  return {
+    posts: state.posts
+  }
+}
+
+
+export default connect(mapStateToProps) (Home);
